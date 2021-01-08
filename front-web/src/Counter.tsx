@@ -6,16 +6,14 @@ function Counter() {
 
 
     const incrementado = () => {
-        console.log('Incrementar')
-
-        setCounter(counter + 1 );
+          setCounter(counter + 1 );
+          console.log('Incrementar')
      
     
     }
 
   const decrementado = () => {
     setCounter(counter - 1 );
-
     console.log('Decrementar')
 
 
