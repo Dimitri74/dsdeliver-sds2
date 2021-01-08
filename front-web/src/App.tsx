@@ -6,7 +6,10 @@ function App() {
   return (
 
     <div>
-      <Hello></Hello>
+      <Hello message="Dimitri" />
+      <Hello message="Simone" />
+      <Hello message="Mateus" />
+      <Hello message="Gabriel" />
     </div>
   );
 }

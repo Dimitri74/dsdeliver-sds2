@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+type Props = {
 
-function Hello(){
+message: string;
+
+}
+
+function Hello({ message} : Props ) {
+
+   useEffect(() => {
+
+      console.log('Componente iniciado...');
+
+   }, []);
 
  return (
-    <h1>Componente Hello!</h1>
+    <h1>Hello {message}!</h1>
  )
 
 }
